@@ -7,15 +7,28 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "greet",
+				"name": "favNumber",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -47,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Day 1.sol": {
-			"keccak256": "0x599edf51648f03e9d83f82bca9def9ec76669c1d108b7be5bcfebd7f51139765",
-			"license": "MIT",
+			"keccak256": "0xe5a315cd79759952141f98d134497442eb6c6898d89a5640fa97eb09c7dc4048",
+			"license": "MIT - Licensing and sharing the code a lot easy",
 			"urls": [
-				"bzz-raw://8212700e8c4465da3dd7b1f50450b9668ca7392e2c06ecde9c15e0c0371bd3aa",
-				"dweb:/ipfs/QmYuad4kw6jhRs9MV54Gmojksd7niVbdFJruag17NJiH8n"
+				"bzz-raw://b9a7de45c9e4ce868257bed7b40f3dd8515b9ce35eb447f07a29f166977e805f",
+				"dweb:/ipfs/QmbyeZBZouFpcPRrQ5Ep5ABGu6qzkmX5aa4aiGudpqJBEe"
 			]
 		}
 	},
