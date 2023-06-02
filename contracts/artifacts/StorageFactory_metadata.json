@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createsimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfAddUsers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorageContract",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Day 3 & 4.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Day 2.sol": {
+			"keccak256": "0x30815a9eb3e8d7972727d7166701336f911e32c43e7fa5d497d42c2774506436",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a05e668afdd69ad268eb6f9a756a29a229a0b02a1522019a0a9ded47601b731",
+				"dweb:/ipfs/QmfWvgsw94u47pQrYLgExAektk1DSXAKdxyfsmFM2ZryPw"
+			]
+		},
+		"contracts/Day 3 & 4.sol": {
+			"keccak256": "0x623300545afd41f3ec2f46e8a6bc2d38b487faeaf6d39c4fddf30a9a842a9991",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54b9640fb0a434085f2e9fea6ea5eb39ce67fb5afc1c55117cf4448247298c4c",
+				"dweb:/ipfs/QmbM8kovVP5ZyfQf51xNzdRyj8nAQf37KJ8Qo6xA7298ox"
+			]
+		}
+	},
+	"version": 1
+}

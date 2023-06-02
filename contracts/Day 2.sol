@@ -23,7 +23,7 @@ contract SimpleStorage{
 }
 */
 
-contract arrayExamples {
+contract SimpleStorageContract {
     // stuct will help us create a new type of data which can be used around the program something like uint or string
     // 1. first way to give values to the object of the data that we created 
     // People public person = People({phonenumber: 1234 , username : "Vicky"});
